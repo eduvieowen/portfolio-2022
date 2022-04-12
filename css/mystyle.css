@@ -3,9 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
-}
+    transition: 0.3s ease-in-out;
 
+}
 body {
+    font-size: 3vw;
+    font-size: 2vh;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-rendering: optimizeLegibility !important;
     -webkit-font-smoothing: antialiased !important;
@@ -17,7 +20,7 @@ body {
 #header {
     display: flex;
     justify-content: center;
-    background: url(/eduvies_website/media/mario_pc_1080.jpg) no-repeat fixed; /* made background fixed */
+    background: url(https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433) no-repeat fixed; /*made background fixed*/
     background-size: cover;
     z-index: -1;
     flex-direction: column;
@@ -49,12 +52,6 @@ body {
     color: rgb(221, 0, 0);
 }
 
-/* Styling main pictures */
-.content-pics {
-    max-height: 100%;
-    border-radius: 20px;
-}
-
 /* Creating two unequal columns that floats next to each other */
 /* Left column */
 .leftcolumn {   
@@ -68,6 +65,7 @@ body {
     padding-left: 20px;
     padding-right: 10px;
 }
+
 /* Fake image Containers*/
 .fakeimg {
     width: 100%;
@@ -75,6 +73,32 @@ body {
     margin-bottom: 20px;
     padding: 20px;
 }
+/* Styling main pictures */
+.content-pics {
+    /* border: solid; */
+    display: flex;
+    margin: 30px 0;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border: solid;
+    border-radius: 20px;
+}
+.responsive {
+    /* border: solid rebeccapurple;     */
+    float: left;
+    justify-content: space-evenly;
+    padding: 6px;
+    margin-bottom: 6px;
+    width: 24.99%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
 /* Card effect for articles */
 .card {
     border: solid rgba(255, 255, 255, 0.1);
@@ -93,7 +117,7 @@ body {
 
 /* My Works */
 .work-img {
-    margin-top: 30px;
+    margin: 30px 0;
     display: flex;    
     justify-content: center;
 

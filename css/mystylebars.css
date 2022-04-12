@@ -1,30 +1,42 @@
 /*Styling Progress Bars*/
 #progress-bars {
     display: flex;
+    /* border: solid red; */
     flex-direction: column;
-    justify-content: space-between;
-    height: 100%;
+    margin: 10px 0;
 }
 .progress-bar {
     background-color: white;
     border: 5px outset white; /*changed size and style */
     border-radius: 20px;    
+    margin: 20px 0;
     text-align: center;
   }
 .progress-bar-active {
-    padding-top: 2px;
+    height: 30px;
+    /* padding-top: 2px; */
     border: 2px solid black; /*changed color */
     border-radius: 20px;
 }
 .bar-progress {
+    position: relative;
     color: white;
 }
-.red-progress {
+.t {
+    font-size: 100vw;
+    font-size: 1.5vh;
+    position: absolute;
+    top:20%;
+    bottom: 25%;
+    right: 25%;
+    left: 25%;
+}
+#red-progress {
     background-color: darkred;
 }
-.green-progress {
+#green-progress {
     background-color: green;
 }
-.blue-progress {
+#blue-progress {
     background-color: darkblue;      
 }

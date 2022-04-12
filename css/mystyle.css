@@ -17,7 +17,7 @@ body {
 #header {
     display: flex;
     justify-content: center;
-    background: url(/eduvies_website/media/mario_pc_1080.gif) no-repeat fixed; /* made background fixed */
+    background: url(/eduvies_website/media/mario_pc_4k.jpg) no-repeat fixed; /* made background fixed */
     background-size: cover;
     z-index: -1;
     flex-direction: column;

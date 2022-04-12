@@ -1,0 +1,54 @@
+/* Main nav styling */
+#stickyNav {
+    background-color: rgba(221, 0, 0, 0.5);
+    border-bottom: 1.5px solid;
+    width: 100%;
+    float: left;
+    top: 0;
+    left: 0;
+    position: fixed;
+    transition: top 0.4s;
+}
+
+/* Styling the top navigation bar */
+.topnav {
+    margin-right: 2px;
+    float: right;
+    overflow: hidden;
+}
+
+/* Styling the topnav links */
+.topnav a {    
+    display: block;
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change topnav links color on hover & focus */
+.topnav a:hover{
+    background-color: rgb(225, 225, 225);
+    font-weight: bold;
+    color: black;
+}
+.topnav a:focus {
+    background-color: black;
+    color: white;
+    transition: background-color 0.2s ease-out;
+}
+
+/*Styling home section*/
+#home {
+    float: left;
+    top: 0;
+    padding-top: 5px;
+    margin-left: 70px;
+} 
+#home a {
+    text-decoration: none;
+}
+#home h1:hover{
+    color: black
+}

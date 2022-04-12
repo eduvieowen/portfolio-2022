@@ -1,0 +1,29 @@
+/*Styling Progress Bars*/
+#progress-bars {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.progress-bar {
+    border: solid black;
+    border-radius: 20px;    
+    text-align: center;
+  }
+.progress-bar-active {
+    padding-top: 2px;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.bar-progress {
+    color: white;
+}
+.red-progress {
+    background-color: darkred;
+}
+.green-progress {
+    background-color: green;
+}
+.blue-progress {
+    background-color: darkblue;      
+}

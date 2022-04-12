@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+/* Style the top background img */
+#header {
+    background-image: url(media/mario_pc_1080.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    /* border: solid; */
+}
+
+/* Styling titles/bookmarks */
+.chp {
+    display: inline-block;
+    padding:5px;
+    border: 5px outset;
+}
+
+/* Styling header */
+#welcomeMessage {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: solid;
+    border-radius: 20px;
+    padding: 5px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    right: 30%;
+    left: 30%;
+}
+#welcomeMessage b {
+    color: rgb(221, 0, 0);
+}
+
+/* Styling main pictures */
+.content-pics {
+    max-height: 100%;
+    border-radius: 20px;
+}
+
+/* Creating two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+    float: left;
+    width: 75%;
+}
+/* Right column */
+.rightcolumn {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+/* Fake image Containers*/
+.fakeimg {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+/* Card effect for articles */
+.card {
+    border: solid rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.07);
+    padding: 20px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    margin-top: 20px;
+}
+/* Clearing floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* My Works */
+.work-img {
+    margin-top: 30px;
+    max-width: 100vw;
+    display: flex;    
+    justify-content: space-evenly;
+
+}
+#workImg {
+    max-width: 100%;
+    max-height: 300px;
+    border: 4px solid whitesmoke;
+    border-radius: 20px;
+}
+/* Follow Me */
+.links {
+    justify-content:space-evenly;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    border: solid;
+    border-radius: 20px;
+}
+/* Footer */
+.footer {
+    padding: 20px;
+    margin-right: 4px;
+    text-align: center;
+    border: solid white;
+    background: rgba(255, 255, 255, 0.07);
+    color: black;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+/* Contact Me */
+#contact-container {
+    position: relative;
+    left: 25%;
+    right: 25%;
+    margin-top: 10px;
+    /* border: solid; */
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly ;
+}
+.contact-links {
+    background-color: wheat;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    float: left;
+    border: solid;
+    border-radius: 20px;
+}

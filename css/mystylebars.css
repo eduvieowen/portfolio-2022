@@ -6,13 +6,14 @@
     height: 100%;
 }
 .progress-bar {
-    border: solid black;
+    background-color: white;
+    border: 5px outset white; /*changed size and style */
     border-radius: 20px;    
     text-align: center;
   }
 .progress-bar-active {
     padding-top: 2px;
-    border: 1px solid white;
+    border: 2px solid black; /*changed color */
     border-radius: 20px;
 }
 .bar-progress {

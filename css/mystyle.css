@@ -15,7 +15,7 @@ body {
 
 /* Style the top background img */
 #header {
-    background-image: url(media/mario_pc_1080.gif);
+    background-image: url(/eduvies_website/media/mario_pc_1080.gif); /* retrieved background gif */
     background-repeat: no-repeat;
     background-size: cover;
     z-index: -1;
@@ -113,6 +113,21 @@ body {
     display: flex;
     border: solid;
     border-radius: 20px;
+}
+.links.inst:hover { /*Added hover styling to .links */
+    transition: 0.3s;
+    transform: scale(110%);
+    background-color: rgba(216, 46, 127, 0.377);
+}
+.links.disc:hover {
+    transition: 0.3s;
+    transform: scale(110%);
+    background-color: rgba(105, 118, 192, 0.377);
+}
+.links.tweet:hover {
+    transition: 0.3s;
+    transform: scale(110%);
+    background-color: rgba(0, 172, 237, 0.377);
 }
 /* Footer */
 .footer {

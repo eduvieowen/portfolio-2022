@@ -140,17 +140,17 @@ div.gallery img {
 .links.inst:hover { /*Added hover styling to .links */
     transition: 0.3s;
     transform: scale(110%);
-    background-color: rgba(216, 46, 127, 0.377);
+    background-color: rgb(255, 255, 255);
 }
 .links.disc:hover {
     transition: 0.3s;
     transform: scale(110%);
-    background-color: rgba(105, 118, 192, 0.377);
+    background-color: rgb(255, 255, 255);
 }
 .links.tweet:hover {
     transition: 0.3s;
     transform: scale(110%);
-    background-color: rgba(0, 172, 237, 0.377);
+    background-color: rgb(255, 255, 255);
 }
 /* Footer */
 .footer {

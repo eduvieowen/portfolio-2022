@@ -9,7 +9,10 @@ var prevScrollpos = window.pageYOffset;
         }
         prevScrollpos = currentScrollPos;
       }
-
+function myFunction()
+{
+  alert("Hi :)")
+}
 // Get the button, and when the user clicks on it, execute myFunction
 // document.getElementById("myBtn").onclick = function() {myFunction()};
 

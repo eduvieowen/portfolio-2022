@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <title>Eduvie | Homepage</title>
     <meta charset = "UTF-8">
-    <title>Ed</title>
-    <meta name = "description" content = "JS = 'ew'">
-    <meta name = "author" content = "Eduvie">
-    <meta name = "keywords" content = "HTML, Learning, Chronicles of HTML x CSS ">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <meta name = "description" content="A portfolio website for web developer, Ederuvie Owen Udusegbe">
+    <meta name = "author" content = "Ederuvie Owen Udusegbe">
+    <meta name = "keywords" content = "HTML, Learning, Chronicles of HTML x CSS ">
     <link rel="icon" type="image/x-icon" href="media/f.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css/resp.css">
     <link rel="stylesheet" href="css/navbars.css">
-    <link rel="stylesheet" href="css/mystylebars.css">    
+    <link rel="stylesheet" href="css/progressbars.css">
+    <script type="text/javascript" src="scripts/index.js"></script>    
   </head>
 
   <body>
-    <div id="stickyNav">      
+
+    <div id="stickyNav"> 
+           
       <div id="home">
         <a href="#header">
         <div id="homeButton"><h1 style="font-size: 30px;" title="Home">Eduvie O.U.</h1></a></div>
@@ -25,146 +29,167 @@
       <div class="topnav">
         <a href="#C1">About</a>
         <a href="#C2">Porfolio</a>
-        <a href="#C4">Contact</a>
-        <a href="#C3">
-          My Works
-        </a>
+        <a href="#C3">My Works</a>
+        <a href="#C4">Socials</a>
+        <a style="background-color:rgb(0, 112, 7);" href="#C5">CONTACT</a>
       </div>
     </div>
 
     <div id="header">
+
       <div id="welcomeMessage">
-        <p style="font-size: 20px; color: black;">Hi, I'm <b>Eduvie Owen</b> Udusegbe</p><br>
-        <p style="font-size: 12px;"><b>FRONT-END DEVELOPER</b></p>
+        <p id="firstP">Hi, I'm <b>Eduvie Owen</b> Udusegbe</p><br>
+        <p id="secondP"><b>FRONT-END DEVELOPER</b></p>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="leftcolumn">
-        <div class="card" id="C1">
-          <h2 class="chp">ABOUT ME</h2>
-
-          <div class="content-pics">
-
-            <div class="responsive">
-              <div class="gallery">
-                <img alt="Eduvie Profile B.W." src="media/ed-crop.jpg">
-              </div>
-            </div>
-
-            <div class="responsive">
-              <div class="gallery">
-                <img alt="Eduvie Profile B.W." src="media/ed.jpg">
-              </div>
-            </div>  
-          </div>
-
-          <div class="clearfix"></div>      
-              
-          <p>Hello there, my name is <b style="color: rgb(226, 0, 0);">Ederuvie Owen Udusegbe</b>,</p><br>
-          <p>I am a Computer Engineer student with strong programming abilities. I am a freelancer.</p>
-          <p>I enjoy my work and look forward to each new project that comes my way.
-            Please take a look at my portfolio and don't hesitate to contact me if you believe I can be of assistance to you.</p><br> 
-          <p>Thanks for stopping by!</p>
-        </div>
-
-        <div class="card" id="C2">
-          <h2 class="chp">PORTFOLIO</h2>
-          <div style="margin-top:20px">
-            <h5>Upadted - <i>April 10, 2022</i></h5>
-          </div>
-          <div id="progress-bars">
-
-            <div class="progress-bar">
-              <div class="progress-bar-active bar-progress" id="red-progress" style="width:93%;">
-                <div class="t">93% - HTML</div>
-              </div>
-            </div>
-            <div class="progress-bar">
-              <div class="progress-bar-active bar-progress" id="green-progress" style="width:93%;">
-                <div class="t">93% - CSS</div>
-              </div>
-            </div>
-            <div class="progress-bar">
-              <div class="progress-bar-active bar-progress" id="blue-progress" style="width:20%;">
-                <div class="t">20% - GIT</div>
-              </div>
-            </div>
-            
-          </div>
-          <p>Progress Counter...</p><br>
-          <p>This is an ongoing evaluation. Porfolio is subject to change kindly create a <i><b style="color: rgb(226, 0, 0);">bookmark</b></i> to the page
-            to remain updated
-          </p>
-        </div>
-      </div>
-
-      <div class="rightcolumn" id="C3">
-        <div class="card" >
-          <h2 class="chp">MY WORKS</h2>
-          <div id="worksContainer">
-            <div class="work-img">
-              <img id="workImg" src="media/burger-btn.gif" title="Coming Soon...">
-            </div>
-            <br>
-            <p><i>Loading...</i></p>
-          </div>
-        </div>
-        
-        <div class="card" style="height: fit-content;">
-          <h3 style="color: rgb(226, 0, 0);">Follow Me...</h3><br>
-          <div id="linksContainer"> <!-- Added new classes to .links --> 
-
-            <a target="_blank" href="https://www.instagram.com/eduvie.ou/ ">
-              <div class="links inst">
-                <img src="media/instragram.png" width="50px" height="50px" alt="Instagram" title="Instagram">
-              </div>
-            </a>
-
-            <a target="_blank" href="https://www.discordapp.com/users/mxm3ffort#3507”">
-              <div class="links disc">
-                <img src="media/discord.png" width="50px" height="50px" alt="Instagram" title="Discord">
-              </div>
-            </a>
-            
-            <a target="_blank" href="https://twitter.com/eduvieowen">
-              <div class="links tweet">
-                <img src="media/twitter.png" width="50px" height="50px" alt="Twitter Profile" title="Twitter">
-              </div>
-            </a>
-            
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="footer" id="C4">
-      <h2 class="chp">CONTACT ME</h2>
-      <section id="contact-container">
-        
-        <div class="contact-links">
-          <a href="mailto:eduvieouu@gmail.com?subject=SERVICE REQUEST" target="_blank">
-            <img src="media/email.png" alt="Email" width="50px" title="Email"> 
-          </a>
-        </div>
-        
-        <div class="contact-links">  
-          <a href="https://github.com/eduvieowen" target="_blank">
-            <img src="media/github.png" alt="GitHub" width="50px" title="Email"> 
-          </a>
-        </div>        
-        
-        <div class="contact-links">  
-          <a href="https://www.linkedin.com/in/eduvieowen/" target="_blank">
-            <img src="media/linkedin.png" alt="LinkedIn" width="50px" title="Email"> 
-          </a>
-        </div>
-
-      </section>
       
     </div>
+    <main id="mainPage">
+      <div class="row">
 
-    <script type="text/javascript" src="scripts/index.js"></script>
+        <div class="leftcolumn">
+          
+          <div class="card" id="C1">
+
+            <main>
+              <header><h2 class="chp">ABOUT ME</h2></header>
+
+              <div class="content-pics">
+
+                <div class="responsive">
+                  <div class="gallery">
+                    <img alt="Eduvie Profile B.W." src="media/ed-crop-2.jpg">
+                  </div>
+                </div>  
+
+              </div>
+              <div class="clearfix"></div>    
+              <article>    
+                <p>Hello there, my name is <b>Ederuvie Owen</b> Udusegbe,</p><br>
+                <p>
+                  I am a Computer Engineer student with strong programming abilities. I am a freelancer.
+                  I enjoy my work and look forward to each new project that comes my way.
+                  Please take a look at my portfolio and don't hesitate to contact me if you believe I can be of assistance to you.
+                </p><br> 
+                  Thanks for stopping by!
+              </article>
+
+            </main> 
+            
+          </div>
+
+          <div class="card" id="C2">
+
+            <main>
+              <header><h2 class="chp">PORTFOLIO</h2></header>
+
+              <h5 style="margin-top: 20px;">Upadted - <i>April 10, 2022</i></h5>
+
+              <div id="progress-bars">
+
+                <div class="progress-bar">
+                  <div class="progress-bar-active bar-progress" id="red-progress" style="width:93%;">
+                    <div class="t">93% - HTML</div>
+                  </div>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-bar-active bar-progress" id="green-progress" style="width:93%;">
+                    <div class="t">93% - CSS</div>
+                  </div>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-bar-active bar-progress" id="blue-progress" style="width:20%;">
+                    <div class="t">20% - GIT</div>
+                  </div>
+                </div>
+                
+              </div>
+
+              <article>
+                <p>Progress Counter...</p><br>
+                <p>This is an ongoing evaluation. This section is subject to change kindly create a <i id="bookmark" title="Ctrl/Command + D"  onclick="myFunction()"><b>bookmark</b></i> to the page
+                  to remain updated
+                </p>
+              </article>
+            </main>
+
+          </div>
+        </div>
+
+        <div class="rightcolumn">
+
+          <div class="card" id="C3">
+
+            <main>
+              <header><h2 class="chp">MY WORKS</h2></header>
+
+              <div id="worksContainer">
+                <div class="work-img">
+                  <img id="workImg" src="media/im-working-on-it-im-trying.gif" title="Coming Soon...">
+                </div>
+                <p><i>Coming Soon...</i></p>
+              </div>
+
+            </main>
+          </div>
+          
+          <div class="card" id="C4">
+            
+            <h3>Follow Me...</h3><br>
+            <div id="linksContainer">
+
+              <a target="_blank" href="https://www.instagram.com/eduvie.ou/ ">
+                <div class="links inst" title="Instagram">
+                  <img src="media/instragram.png" width="50px" height="50px" alt="Instagram" >
+                </div>
+              </a>
+
+              <a target="_blank" href="https://www.discordapp.com/users/mxm3ffort#3507”">
+                <div class="links disc" title="Discord">
+                  <img src="media/discord.png" width="50px" height="50px" alt="Instagram">
+                </div>
+              </a>
+              
+              <a target="_blank" href="https://twitter.com/eduvieowen">
+                <div class="links tweet" title="Twitter">
+                  <img src="media/twitter.png" width="50px" height="50px" alt="Twitter Profile">
+                </div>
+              </a>
+              
+            </div>
+
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="footer" id="C5">
+        <header><h2 class="chp" style="background-color:rgb(0, 112, 7);">CONTACT ME</h2></header>
+        
+        <main id="contact-container">
+          
+          <div class="contact-links">
+            <a href="mailto:eduvieouu@gmail.com?subject=SERVICE REQUEST" target="_blank">
+              <img src="media/email.png" alt="Email" title="Email"> 
+            </a>
+          </div>
+          
+          <div class="contact-links">  
+            <a href="https://github.com/eduvieowen" target="_blank">
+              <img src="media/github.png" alt="GitHub" title="Email"> 
+            </a>
+          </div>        
+          
+          <div class="contact-links">  
+            <a href="https://www.linkedin.com/in/eduvieowen/" target="_blank">
+              <img src="media/linkedin.png" alt="LinkedIn" title="Email"> 
+            </a>
+          </div>
+
+        </main>
+        
+        <div class="copyright"><a href="https://eduvieowen.netlify.app/"><img src="media/f.ico"></a> © 2022 Eduvie O.U. </div>
+      </div>
+    </main>
 
   </body>
 </html>

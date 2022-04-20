@@ -18,6 +18,7 @@ make the navigation links into a menu button */
       display: none;
   }
 }
+/*Top nav Responsive Styles*/
 @media screen and (max-width:820px) {
   .topnav {
     font-size: 2vh;
@@ -27,22 +28,49 @@ make the navigation links into a menu button */
   }  
 }
 
-@media screen and (max-width:412px) {
+@media screen and (max-width:415px) {
   .topnav {
-    font-size: 4.3vw;
+    font-size: 14px !important;
   }
-  #home {
-    display: none;
+  .topnav a {
+    padding: 14px 12px !important;
   }  
 }
 
-@media screen and (max-width:399px) {
+@media screen and (max-width:394px) {
   .topnav {
-    font-size: 4vw;
+    font-size: 13px !important;
   }
-  #home {
-    display: none;
-  }  
+  .topnav a {
+    padding: 13px 12px !important;
+  }
+}
+
+@media screen and (max-width:391px) {
+  .topnav {
+    font-size: 14px !important;
+  }
+  .topnav a {
+    padding: 14px 10px !important;
+  }
+}
+
+@media screen and (max-width:376px) {
+  .topnav {
+    font-size: 12px !important;
+  }
+  .topnav a {
+    padding: 10px 12px !important;
+  }
+}
+
+@media screen and (max-width:361px) {
+  .topnav {
+    font-size: 12px !important;
+  }
+  .topnav a {
+    padding: 12px 10px !important;
+  }
 }
 
 /* pictures */

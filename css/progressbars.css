@@ -3,19 +3,18 @@
     display: flex;
     /* border: solid red; */
     flex-direction: column;
-    margin: 10px 0;
+    margin-bottom: 10px;
 }
 .progress-bar {
     background-color: white;
-    border: 5px outset white; /*changed size and style */
-    border-radius: 20px;    
+    border: 5px outset rgb(160, 160, 160);
+    border-radius: 30px;    
     margin: 20px 0;
     text-align: center;
   }
 .progress-bar-active {
-    height: 30px;
-    /* padding-top: 2px; */
-    border: 2px solid black; /*changed color */
+    height: 40px;
+    border: 2px solid black;
     border-radius: 20px;
 }
 .bar-progress {
@@ -23,14 +22,17 @@
     color: white;
 }
 .t {
-    font-size: 100vw;
-    font-size: 1.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 11px !important;
     position: absolute;
     top:20%;
     bottom: 25%;
     right: 25%;
     left: 25%;
 }
+
 #red-progress {
     background-color: darkred;
 }

@@ -2,12 +2,18 @@
 /* Responsive layout - when the screen is less than 800px wide, 
 make the two columns stack on top of each other instead of next to each other &
 make the navigation links into a menu button */
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 920px) {
+  .leftcolumn, .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 767px) {
   .leftcolumn, .rightcolumn {   
       width: 100%;
       padding: 0;
   }
-  #header { /* Added alt background */
+  #header {
       background: url(https://images.hdqwalls.com/download/mario-chilling-mp-2160x3840.jpg) no-repeat;
       background-size: cover;
       max-width: 100%;
@@ -18,35 +24,52 @@ make the navigation links into a menu button */
       display: none;
   }
 }
+
 /*Top nav Responsive Styles*/
-@media screen and (max-width:820px) {
+
+/* XR */
+@media screen and (max-width:415px) and (max-height: 896px) {
   .topnav {
-    font-size: 2vh;
+    font-size: 15px !important;
+    width: 100vw !important;
+  }
+  .topnav a {
+    padding: 14px 11px !important;
   }
   #home {
-    display: none;
+    display: none !important;
+  }
+  .t {
+    font-size: 1.2vh !important;
   }  
 }
 
-@media screen and (max-width:415px) {
+/* S20 Ultra */
+@media screen and (max-width: 412px) and (max-height: 916px) {
+  .topnav {
+    font-size: 15px !important;
+    width: 100vw !important;
+  }
+  .topnav a {
+    padding: 14px 10.9px !important;
+  }  
+  #home {
+    display: none !important;
+  }   
+}
+
+/* Pixel 5 */
+@media screen and (max-width:394px) and (max-height: 852px) {
   .topnav {
     font-size: 14px !important;
   }
   .topnav a {
-    padding: 14px 12px !important;
-  }  
-}
-
-@media screen and (max-width:394px) {
-  .topnav {
-    font-size: 13px !important;
-  }
-  .topnav a {
-    padding: 13px 12px !important;
+    padding: 13px 10px !important;
   }
 }
 
-@media screen and (max-width:391px) {
+/* 12 Pro */
+@media screen and (max-width:391px) and (max-height: 844px) {
   .topnav {
     font-size: 14px !important;
   }
@@ -55,21 +78,26 @@ make the navigation links into a menu button */
   }
 }
 
-@media screen and (max-width:376px) {
+/* SE */
+@media screen and (max-width:376px) and (max-height: 668px) {
   .topnav {
-    font-size: 12px !important;
+    font-size: 13px !important;
   }
   .topnav a {
-    padding: 10px 12px !important;
+    padding: 10px 11px !important;
+  }
+  #home {
+    display: none;
   }
 }
 
-@media screen and (max-width:361px) {
+/* S8+ */
+@media screen and (max-width:360px) and (max-height: 740px) {
   .topnav {
-    font-size: 12px !important;
+    font-size: 14px !important;
   }
   .topnav a {
-    padding: 12px 10px !important;
+    padding: 12px 6.7px !important;
   }
 }
 

@@ -19,21 +19,71 @@ body {
 #mainPage {
     padding: 3vw;
 }
-article {
-    line-height: 1.5;
-    text-align: justify;
-}
 
-/* Styling welcome banner */
+/* Styling welcome banner & Contact Links */
 #header {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
     background: url(https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433) no-repeat fixed; /*made background fixed*/
     background-size: cover;
+    background-position: center;
     height: 100vh;
-    z-index: -1;
+    z-index: 0;
     /* border: solid; */
+}
+#welcomeMessage {
+    background-color: rgb(255, 255, 255);
+    border: 8px inset rgb(221, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+}
+#welcomeMessage button {
+    margin: 15px;
+    padding: 2px;
+    color: black;
+    text-decoration: none;
+    font-family: 'Mulish';
+    font-size: 16px;
+}
+
+#contact-container {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 15px;
+    /* margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 15px; */
+    /* position: relative; */
+    /* left: 25%; */
+    /* right: 25%; */
+    /* padding-top: 50px; */
+    /* width: 50%; */
+}
+.contact-links {
+    /* background-color: whitesmoke; */
+    /* padding: 5px; */
+    /* margin: 20px 0px; */
+    /* display: flex; */
+    /* float: left; */
+    /* border: outset rgb(5, 12, 33); */
+    /* border-radius: 40px; */
+}
+.contact-links a img{
+    width: 35px;
+    height: fit-content;
+}
+.contact-links a img:hover{
+    opacity: 80%;
+}
+.contact-links:hover {
+    /* border: inset rgb(0, 110, 169); */
+    /* background-color: rgb(160, 160, 160); */
 }
 
 /* Styling titles/bookmarks */
@@ -47,14 +97,6 @@ article {
 }
 
 /*Styling paragraphes */
-#welcomeMessage {
-    background-color: rgb(255, 255, 255);
-    border: 8px inset rgb(221, 0, 0);
-    border-radius: 20px;
-    padding: 10px;
-    text-align: center;
-    width: 50%;
-}
 b {
     color: rgb(226, 0, 0);
 }
@@ -68,17 +110,22 @@ b {
     font-size: 3vw;
     font-size: 2vh;
 }
+article {
+    line-height: 1.5;
+    text-align: justify;
+}
 
 /* Creating two unequal columns that floats next to each other */
+
 /* Left column */
 .leftcolumn {   
     float: left;
-    width: 75%;
+    width: 60%;
 }
 /* Right column */
 .rightcolumn {
     float: right;
-    width: 25%;
+    width: 40%;
     padding-left: 20px;
     /* padding-right: 10px; */
 }
@@ -134,17 +181,33 @@ div.gallery img {
 }
 
 /* My Works */
-.work-img {
-    margin: 30px 0;
+#worksContainer {
+    margin: 30px 0px;
+}
+.work-img-container {
     display: flex;    
     justify-content: center;
     align-items: center;
+    margin: 15px 0px;
 }
 #workImg {
     max-width: 100%;
     max-height: 300px;
     /* border: 10px inset ; */
     border-radius: 20px;
+}
+/* iframe {
+    color: whitesmoke;
+    border: 3px solid whitesmoke;
+}
+.link-btns button {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+    padding: 2px;
+    color: black;
+    text-decoration: none; */
+
 }
 /* Follow Me */
 #C4 h3 {
@@ -184,47 +247,69 @@ div.gallery img {
 
 /* Footer */
 .footer {
-    padding-top: 50px;
-    text-align: center;
+    padding-top: 40px;
+    /* text-align: center; */
     border: solid rgba(255, 255, 255, 0.1);
     background: rgba(255, 255, 255, 0.07);
     /* color: black; */
     /* height: min-content; */
 }
-/* Contact Me */
-#contact-container {
+.footer header {
+    text-align: center;
+}
+.five{
+    background-color:rgb(0, 110, 169);
+}
+.survey-form {
+    /* text-align: center; */
+    margin-top: 30px;
     display: flex;
     justify-content: center;
-    justify-content: space-evenly;
     align-items: center;
-    margin: 40px;
-    /* position: relative; */
-    /* left: 25%; */
-    /* right: 25%; */
-    /* padding-top: 50px; */
-    /* width: 50%; */
+    /* background-color: rgb(77, 77, 77); */
+    /* border: solid; */
 }
-.contact-links {
-    background-color: whitesmoke;
-    padding: 5px;
-    /* margin: 20px 0px; */
-    /* display: flex; */
-    /* float: left; */
-    border: solid;
-    border-radius: 10px;
+.survey-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* border: solid red; */
 }
-.contact-links a img{
-    width: 40px;
+label {
+    color: whitesmoke;
+    font-family: 'Mulish';
+    font-size: 16px;
 }
-.contact-links:hover {
-    background-color: rgb(160, 160, 160);
+input, textarea {
+    color: black;
+    /* border: 5px ridge rgb(0, 110, 169); */
+    border-radius: 8px;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 8px;
 }
+#subBtn{
+    color: whitesmoke;
+    border: 3px ridge rgb(255, 255, 255);
+    background-color: rgb(0, 110, 169);
+    font-family: 'Mulish';
+    font-size: 12px;
+}
+#subBtn:hover {
+    background-color: rgb(158, 213, 246);
+    color: black;
+    font-weight: bold;
+}
+/* Copyright */
 .copyright {
+    text-align: center;
     border-top: 1px solid whitesmoke;
     padding: 5px;
     margin-top: 80px;
     background-color: rgb(77, 77, 77);
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bold;
+    font-family: 'Mulish';
+    font-size: 14px;    
+    /* font-weight: bold; */
 }

@@ -25,7 +25,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 11px !important;
+    font-size: 11px;
     position: absolute;
     top:20%;
     bottom: 25%;
@@ -41,4 +41,10 @@
 }
 #blue-progress {
     background-color: darkblue;      
+}
+#pink-progress {
+    background-color:rgb(224, 35, 227);      
+}
+#yellow-progress {
+    background-color: darkgoldenrod;      
 }

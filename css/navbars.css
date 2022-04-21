@@ -2,6 +2,7 @@
 #stickyNav {
     background-color: rgba(184, 0, 0);
     width: 100%;
+    height: auto;
     position: fixed;
     transition: 0.3s;
     z-index: 1;
@@ -9,13 +10,20 @@
 
 /*Styling home section*/
 #home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     float: left;
-    top: 0;
-    padding-top: 5px;
-    margin-left: 70px;
+    margin: 10px;
+    margin-left: 35px;
 } 
 #home a {
     text-decoration: none;
+    font-size: 10px;
+    font-family: 'Common Pixel', sans-serif;
+}
+#homeButton h1 {
+    text-shadow: 3px 3px 1px rgb(5, 12, 33);
 }
 #home h1:hover{
     color: black
@@ -34,11 +42,14 @@
     text-align: center;
     text-decoration: none;
     padding: 14px 16px;
+    background-color: rgb(140, 0, 0);
     color: rgb(242, 242, 242);
+    border-bottom: 2px solid whitesmoke;
+
 }
 /* Change topnav links color on hover */
 .topnav a:hover{
-    background-color: whitesmoke;
-    font-weight: bold;
-    color: black;
+    background-color: rgb(5, 12, 33);
+    /* font-weight: bold; */
+    color: whitesmoke;
 }

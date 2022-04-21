@@ -9,7 +9,9 @@
     <meta name = "author" content = "Ederuvie Owen Udusegbe">
     <meta name = "keywords" content = "HTML, Learning, Chronicles of HTML x CSS ">
     <link rel="icon" type="image/x-icon" href="media/f.ico">
+    <link href='https://fonts.googleapis.com/css?family=Mulish' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.cdnfonts.com/css/common-pixel" rel="stylesheet">
     <link rel="stylesheet" href="css/mystyle.css">
     <link rel="stylesheet" href="css/resp.css">
     <link rel="stylesheet" href="css/navbars.css">
@@ -23,7 +25,14 @@
            
       <div id="home">
         <a href="#header">
-        <div id="homeButton"><h1 style="font-size: 30px;" title="Home">Eduvie O.U.</h1></a></div>
+          
+         <div id="homeButton">
+            <h1 title="Home">
+              <img src="media/f.ico"> Eduvie O.U.
+            </h1>
+          </div>
+          
+        </a>
       </div>
       
       <div class="topnav">
@@ -31,7 +40,7 @@
         <a href="#C2">Porfolio</a>
         <a href="#C3">My Works</a>
         <a href="#C4">Socials</a>
-        <a style="background-color:rgb(0, 112, 7);" href="#C5">CONTACT</a>
+        <a style="background-color:rgb(0, 110, 169);" href="#C5">CONTACT</a>
       </div>
     </div>
 
@@ -40,9 +49,41 @@
       <div id="welcomeMessage">
         <p id="firstP">Hi, I'm <b>Eduvie Owen</b> Udusegbe</p><br>
         <p id="secondP"><b>FRONT-END DEVELOPER</b></p>
+        <p>
+          <a href="https://drive.google.com/file/d/1zCpRABJ7c2ffkQI8t77OrW78MjjEQB3w/view?usp=sharing" target="_blank">
+            <button type="button" onclick="alert('Redirecting')">
+              View C.V.
+            </button>
+          </a>
+        </p>
+        <p>        
+          <main id="contact-container">
+
+            <div class="contact-links">  
+              <a href="https://github.com/eduvieowen" target="_blank">
+                <img src="media/github.png" alt="GitHub" title="GitHub"> 
+              </a>
+            </div>        
+            
+            <div class="contact-links">  
+              <a href="https://www.linkedin.com/in/eduvieowen/" target="_blank">
+                <img src="media/linkedin.png" alt="LinkedIn" title="LinkedIn"> 
+              </a>
+            </div>  
+                      
+            <div class="contact-links">
+              <a href="mailto:eduvieouu@gmail.com?subject=SERVICE REQUEST" target="_blank">
+                <img src="media/email-black.png" alt="Email" title="Email"> 
+              </a>
+            </div>
+
+
+          </main>
+        </p>
       </div>
       
     </div>
+
     <main id="mainPage">
       <div class="row">
 
@@ -64,13 +105,25 @@
               </div>
               <div class="clearfix"></div>    
               <article>    
-                <p>Hello there, my name is <b>Ederuvie Owen</b> Udusegbe,</p><br>
+                <p>Hello there, my name is <b>Ederuvie Owen</b> Udusegbe,</p>
+                <br>
                 <p>
-                  I am a Computer Engineer student with strong programming abilities. I am a freelancer.
-                  I enjoy my work and look forward to each new project that comes my way.
-                  Please take a look at my portfolio and don't hesitate to contact me if you believe I can be of assistance to you.
-                </p><br> 
-                  Thanks for stopping by!
+                  I am a Computer Engineering undergrade with strong <b>programming</b> abilities 
+                  and a knack for <b>photography</b> and a <b>C1 DELF</b> diploma in <b>French</b> 
+                  language proficiency.
+                </p> 
+                <!-- <br>
+                <p>
+                  I am a freelancer and I enjoy my work. I look forward to use my various 
+                  skills in each new project that comes my way.
+                </p> -->
+                <br>
+                <p>
+                  Please take a <b>look</b> at <b>my portfolio</b> and click the click the Welcome Banner to download my C.V. do not hesitate to 
+                  <b>contact me</b> for further enquiries.
+                </p>
+                <br> 
+                <em>Thanks for stopping by!</em>
               </article>
 
             </main> 
@@ -101,6 +154,16 @@
                     <div class="t">20% - GIT</div>
                   </div>
                 </div>
+                <div class="progress-bar">
+                  <div class="progress-bar-active bar-progress" id="pink-progress" style="width:30%;">
+                    <div class="t">30% - JavaScript</div>
+                  </div>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-bar-active bar-progress" id="yellow-progress" style="width:60%;">
+                    <div class="t">60% - Photography</div>
+                  </div>
+                </div>
                 
               </div>
 
@@ -123,11 +186,40 @@
               <header><h2 class="chp">MY WORKS</h2></header>
 
               <div id="worksContainer">
-                <div class="work-img">
+                <div class="work-img-container">
                   <img id="workImg" src="media/im-working-on-it-im-trying.gif" title="Coming Soon...">
                 </div>
-                <p><i>Coming Soon...</i></p>
+                <p style="text-align: center;"><i>Coming Soon...</i></p>
               </div>
+              <br>
+
+              <!-- <section class="iframe">
+
+                <header><h3>Try these in the meantime</h3></header>
+                <br>
+                <article><p>Click any button to interact</p></article>
+
+                <iframe src = "https://eduvieowen.netlify.app/" name="no_b" 
+                  title="Click any button to interact" width = "100%" height="500px">
+                </iframe>
+                <br>
+
+                <section class="link-btns">
+                  <span>
+                    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" autoplay target="_blank"><button>Eoogle.moc</button></a>
+                  </span>                
+                  <span>
+                    <a href="https://i.kym-cdn.com/entries/icons/mobile/000/039/393/cover2.jpg" target="no_b"><button>MEME</button></a>
+                  </span>                
+                  <span>
+                    <a href="https://hackertyper.net/" target="no_b"><button>http://www.5z8.info</button></a>
+                  </span>                
+                  <span>
+                    <a href="https://images3.memedroid.com/images/UPLOADED914/5debc6b3993b2.jpeg" target="no_b"><button>Zeus.jpeg</button></a>
+                  </span>
+                </section>
+
+              </section> -->
 
             </main>
           </div>
@@ -163,28 +255,45 @@
       </div>
 
       <div class="footer" id="C5">
-        <header><h2 class="chp" style="background-color:rgb(0, 112, 7);">CONTACT ME</h2></header>
-        
-        <main id="contact-container">
-          
-          <div class="contact-links">
-            <a href="mailto:eduvieouu@gmail.com?subject=SERVICE REQUEST" target="_blank">
-              <img src="media/email.png" alt="Email" title="Email"> 
-            </a>
-          </div>
-          
-          <div class="contact-links">  
-            <a href="https://github.com/eduvieowen" target="_blank">
-              <img src="media/github.png" alt="GitHub" title="Email"> 
-            </a>
-          </div>        
-          
-          <div class="contact-links">  
-            <a href="https://www.linkedin.com/in/eduvieowen/" target="_blank">
-              <img src="media/linkedin.png" alt="LinkedIn" title="Email"> 
-            </a>
-          </div>
+        <header><h2 class="chp five">CONTACT ME</h2></header>
 
+        <main class="survey-form">
+
+          <section class="survey-layout">
+            <form action="mailto:eduvieouu@gmail.com" method="get" enctype="text/plain">
+
+                <div>
+                  <label for="email">Email</label>
+                  <br>
+                  <input type="text" name="email" id="email" title="Please fill in tis field" placeholder="Your Email"  />
+                  <br><br>
+                </div>
+
+                <div>
+                  <label for="subject">Subject</label>
+                  <br>
+                  <input type="text" name="subject" id="subject" title="Please fill in tis field" placeholder="Email Title" />
+                  <br><br>
+                </div>
+
+                <div>
+                  <!-- Add more Input Here -->
+                </div>
+
+                <div>
+                  <label>Message</label>
+                  <br>
+                  <textarea name="messgae" rows="20" cols="50" placeholder="Type in your enquiries/service request..."></textarea>
+                  <label for="files">Select additional files:</label>
+                  <input style="color: whitesmoke;" type="file" id="files" name="files" multiple>
+                  <br>
+                  <div class="sub">
+                    <input id="subBtn" type="submit" name="submit" value="SEND REQUEST" title="Send Button"/>
+                  </div>
+                </div>
+            </form>
+          </section>
+          
         </main>
         
         <div class="copyright"><a href="https://eduvieowen.netlify.app/"><img src="media/f.ico"></a> © 2022 Eduvie O.U. </div>

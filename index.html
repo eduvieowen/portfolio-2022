@@ -256,23 +256,27 @@
 
       <div class="footer" id="C5">
         <header><h2 class="chp five">CONTACT ME</h2></header>
-
+        <p style="text-align: center; margin: 60px;">
+          <i>FORM <b>DISABLED</b> UNTIL SECURE CONNECTION IS ESTABLISHED</i>
+          <br>
+          <i>Appologies for the inconvenience</i>
+        </p>
         <main class="survey-form">
 
           <section class="survey-layout">
-            <form action="mailto:eduvieouu@gmail.com" method="get" enctype="text/plain">
+            <form action="mailto:eduvieouu@gmail.com" method="get" enctype="text/plain" autocomplete="on">
 
                 <div>
                   <label for="email">Email</label>
                   <br>
-                  <input type="text" name="email" id="email" title="Please fill in tis field" placeholder="Your Email"  />
+                  <input readonly type="text" name="email" id="email" title="Please fill in tis field" placeholder="Your Email"  />
                   <br><br>
                 </div>
 
                 <div>
                   <label for="subject">Subject</label>
                   <br>
-                  <input type="text" name="subject" id="subject" title="Please fill in tis field" placeholder="Email Title" />
+                  <input readonly type="text" name="subject" id="subject" title="Please fill in tis field" placeholder="Email Title" />
                   <br><br>
                 </div>
 
@@ -283,12 +287,12 @@
                 <div>
                   <label>Message</label>
                   <br>
-                  <textarea name="messgae" rows="20" cols="50" placeholder="Type in your enquiries/service request..."></textarea>
+                  <textarea readonly name="messgae" rows="20" cols="50" placeholder="Type in your enquiries/service request..."></textarea>
                   <label for="files">Select additional files:</label>
-                  <input style="color: whitesmoke;" type="file" id="files" name="files" multiple>
+                  <input readonly style="color: whitesmoke;" type="file" id="files" name="files" multiple>
                   <br>
                   <div class="sub">
-                    <input id="subBtn" type="submit" name="submit" value="SEND REQUEST" title="Send Button"/>
+                    <input readonly id="subBtn" type="submit" name="submit" value="SEND REQUEST" title="Send Button"/>
                   </div>
                 </div>
             </form>

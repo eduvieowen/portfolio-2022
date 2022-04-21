@@ -30,7 +30,7 @@ make the navigation links into a menu button */
 /* XR */
 @media screen and (max-width:415px) and (max-height: 896px) {
   .topnav {
-    font-size: 15px !important;
+    font-size: 15.1px !important;
     width: 100vw !important;
   }
   .topnav a {
@@ -64,7 +64,7 @@ make the navigation links into a menu button */
     font-size: 14px !important;
   }
   .topnav a {
-    padding: 13px 10px !important;
+    padding: 13px 11px !important;
   }
 }
 
@@ -74,7 +74,7 @@ make the navigation links into a menu button */
     font-size: 14px !important;
   }
   .topnav a {
-    padding: 14px 10px !important;
+    padding: 14px 10.7px !important;
   }
 }
 
@@ -84,7 +84,7 @@ make the navigation links into a menu button */
     font-size: 13px !important;
   }
   .topnav a {
-    padding: 10px 11px !important;
+    padding: 10px 11.3px !important;
   }
   #home {
     display: none;
@@ -97,7 +97,17 @@ make the navigation links into a menu button */
     font-size: 14px !important;
   }
   .topnav a {
-    padding: 12px 6.7px !important;
+    padding: 12px 7.6px !important;
+  }
+}
+
+/* Galaxy fold+ */
+@media screen and (max-width: 280px) and (max-height: 654px) {
+  .topnav {
+    font-size: 10px !important;
+  }
+  .topnav a {
+    padding: 12px 7.7px !important;
   }
 }
 

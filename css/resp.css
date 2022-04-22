@@ -84,10 +84,10 @@ make the navigation links into a menu button */
     font-size: 13px !important;
   }
   .topnav a {
-    padding: 10px 11.3px !important;
+    padding: 10px 10px !important;
   }
   #home {
-    display: none;
+    display: none !important;
   }
 }
 

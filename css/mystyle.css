@@ -37,15 +37,16 @@ body {
     z-index: 0;
     /* border: solid; */
 }
-#welcomeMessage {
+.welcome-message {
     background-color: rgb(255, 255, 255);
     border: 8px inset rgb(221, 0, 0);
     border-radius: 20px;
     padding: 10px;
     text-align: center;
     width: 50%;
+    /* height: 50vh; */
 }
-#welcomeMessage button {
+.welcome-message button {
     margin: 15px;
     padding: 2px;
     color: black;
@@ -60,34 +61,13 @@ body {
     justify-content: space-evenly;
     align-items: center;
     margin: 15px;
-    /* margin-left: 30px;
-    margin-right: 30px;
-    margin-bottom: 15px; */
-    /* position: relative; */
-    /* left: 25%; */
-    /* right: 25%; */
-    /* padding-top: 50px; */
-    /* width: 50%; */
 }
-.contact-links {
-    /* background-color: whitesmoke; */
-    /* padding: 5px; */
-    /* margin: 20px 0px; */
-    /* display: flex; */
-    /* float: left; */
-    /* border: outset rgb(5, 12, 33); */
-    /* border-radius: 40px; */
-}
+
 .contact-links a img{
     width: 35px;
-    height: fit-content;
 }
 .contact-links a img:hover{
     opacity: 80%;
-}
-.contact-links:hover {
-    /* border: inset rgb(0, 110, 169); */
-    /* background-color: rgb(160, 160, 160); */
 }
 
 /* Styling titles/bookmarks */

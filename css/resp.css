@@ -21,95 +21,107 @@ make the navigation links into a menu button */
       background-attachment:fixed;
   }
   #home {
-      display: none;
+      display: none !important;
   }
 }
 
 /*Top nav Responsive Styles*/
 
-/* XR */
-@media screen and (max-width:415px) and (max-height: 896px) {
+/* 13 Pro Max */
+@media screen and (max-width:428px) {
   .topnav {
-    font-size: 15.1px !important;
-    width: 100vw !important;
+    font-size: 16px;
+    width: 100vw;
   }
   .topnav a {
-    padding: 14px 11px !important;
+    padding: 14px 10px !important;
   }
-  #home {
-    display: none !important;
-  }
-  .t {
-    font-size: 1.2vh !important;
-  }  
 }
 
-/* S20 Ultra */
-@media screen and (max-width: 412px) and (max-height: 916px) {
+/* XR */
+@media screen and (max-width:414.5px) {
   .topnav {
-    font-size: 15px !important;
-    width: 100vw !important;
+    font-size: 14px;
+    width: 100vw;
   }
   .topnav a {
-    padding: 14px 10.9px !important;
-  }  
-  #home {
-    display: none !important;
-  }   
+    padding: 14px 12.5px !important;
+  } 
+}
+
+/* S20 Ultra | S9+ */
+@media screen and (max-width: 412px) {
+  .topnav {
+    font-size: 14px;
+    width: 100vw;
+  }
+  .topnav a {
+    padding: 14px 12.5px !important;
+  }
 }
 
 /* Pixel 5 */
-@media screen and (max-width:394px) and (max-height: 852px) {
+@media screen and (max-width:393.8px) {
   .topnav {
-    font-size: 14px !important;
+    font-size: 14px;
   }
   .topnav a {
-    padding: 13px 11px !important;
+    padding: 13px 10.5px !important;
   }
 }
 
 /* 12 Pro */
-@media screen and (max-width:391px) and (max-height: 844px) {
+@media screen and (max-width:390.5px) {
   .topnav {
-    font-size: 14px !important;
+    font-size: 14px;
   }
   .topnav a {
-    padding: 14px 10.7px !important;
+    padding: 14px 10.5px !important;
   }
 }
 
 /* SE */
-@media screen and (max-width:376px) and (max-height: 668px) {
+/* @media screen and (max-width:376px) {
   .topnav {
-    font-size: 13px !important;
+    font-size: 13px;
   }
   .topnav a {
-    padding: 10px 10px !important;
+    padding: 10px 11px;
   }
   #home {
-    display: none !important;
+    display: none;
+  }
+} */
+
+/* S8 */
+@media screen and (max-width:360px) {
+  .topnav {
+    font-size: 12px;
+  }
+  .topnav a {
+    padding: 12px 11.5px !important;
   }
 }
 
-/* S8+ */
-@media screen and (max-width:360px) and (max-height: 740px) {
+/* SE 320x568 */
+@media screen and (max-width:320px) {
   .topnav {
-    font-size: 14px !important;
+    font-size: 10px;
   }
   .topnav a {
-    padding: 12px 7.6px !important;
+    padding: 12px 11.5px !important;
   }
 }
 
 /* Galaxy fold+ */
-@media screen and (max-width: 280px) and (max-height: 654px) {
+/* @media screen and (max-width: 280px) {
   .topnav {
-    font-size: 10px !important;
+    font-size: 10px;
   }
   .topnav a {
-    padding: 12px 7.7px !important;
+    padding: 12px 7.7px;
   }
-}
+} */
 
 /* pictures */
 @media only screen and (max-width: 700px) {

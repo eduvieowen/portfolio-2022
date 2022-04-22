@@ -1,11 +1,13 @@
 /* Main nav styling */
 #stickyNav {
-    background-color: rgba(184, 0, 0);
+    /* background-color: rgba(184, 0, 0); */
+    background-color: rgba(0, 110, 169, 0.436);
     width: 100%;
-    height: auto;
+    /* height: auto; */
     position: fixed;
-    transition: 0.3s;
+    transition: 0.5s;
     z-index: 1;
+    border-bottom: 2px solid whitesmoke;
 }
 
 /*Styling home section*/
@@ -13,25 +15,53 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    /* background-color:rgb(0, 110, 169); */
+    width: auto;
     float: left;
-    margin: 10px;
-    margin-left: 35px;
+    height: 100%;
+    margin-left: 10px;
+    /* padding: 0px 55px; */
+    z-index: -1;
 } 
 #home a {
     text-decoration: none;
-    font-size: 10px;
-    font-family: 'Common Pixel', sans-serif !important;
+    /* font-size: 10px;
+    font-family: 'Common Pixel', sans-serif !important; */
 }
-#homeButton h1 {
-    text-shadow: 3px 3px 1px rgb(5, 12, 33);
+#home img {
+    width: 30px;
 }
-#home h1:hover{
-    color: black
+#home p {
+    text-shadow: 3px 3px 1px rgb(5, 12, 33);    
+    text-decoration: none;
+    font-size: 25px;
+    /* font-family: 'Common Pixel', sans-serif; */
+    font-family: 'M23_HYDRANT SPECIAL', sans-serif;
+    /* font-family: 'jethose FULL', sans-serif; */
+    /* font-family: 'jethose LOOSE', sans-serif; */
+    /* font-family: 'jethose  PIXEL', sans-serif; */
+    /* font-family: 'Edit Undo BRK', sans-serif; */                                             
+    /* font-family: 'M20_SP-RANKER', sans-serif; */
+    margin-top: 2px;
+    padding: 0px 10px;
+    padding-bottom: 10px;
+    /* background-color: rgb(0, 110, 169); */
+    /* border: 2px inset rgb(221, 0, 0); */
+    border-radius: 10px;
+                                                
+}
+#home p:hover{
+    color: rgb(182, 0, 0);
 }
 
 /* Styling the top navigation bar */
 .topnav {
     /* margin-right: 15px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
     float: right;
     overflow: hidden;
 }
@@ -44,12 +74,11 @@
     padding: 14px 16px;
     background-color: rgb(140, 0, 0);
     color: rgb(242, 242, 242);
-    border-bottom: 2px solid whitesmoke;
 
 }
 /* Change topnav links color on hover */
 .topnav a:hover{
-    background-color: rgb(5, 12, 33);
+    background-color: rgb(34, 97, 0) !important;
     /* font-weight: bold; */
     color: whitesmoke;
 }

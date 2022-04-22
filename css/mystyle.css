@@ -156,7 +156,14 @@ div.gallery img {
     margin-bottom: 50px;
     padding: 80px 50px;
 }
-
+/* Animation */
+#C2 b {
+    animation: bookmarks 2s linear 0s infinite alternate backwards;
+}
+@keyframes bookmarks {
+    from{color: rgb(169, 0, 0);}
+    to{color: whitesmoke;}
+}
 /* Clearing floats after the columns */
 .row:after {
     content: "";
@@ -190,9 +197,10 @@ div.gallery img {
     margin: 2px;
     padding: 2px;
     color: black;
-    text-decoration: none; */
+    text-decoration: none;
 
 }
+ */
 /* Follow Me */
 #C4 h3 {
     color: rgb(221, 0, 0);

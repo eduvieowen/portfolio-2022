@@ -22,11 +22,11 @@
     color: white;
 }
 .t {
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 11px;
-    position: absolute;
+    font-size: 10px;
     top:20%;
     bottom: 25%;
     right: 25%;

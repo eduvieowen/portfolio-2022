@@ -23,6 +23,9 @@ make the navigation links into a menu button */
   #home {
       display: none !important;
   }
+  .welcome-message {
+    width: 60%;
+  }
 }
 
 /*Top nav Responsive Styles*/

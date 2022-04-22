@@ -49,7 +49,7 @@ make the navigation links into a menu button */
   } 
 }
 
-/* S20 Ultra | S9+ */
+/* S9+ | S20 Ultra */
 @media screen and (max-width: 412px) {
   .topnav {
     font-size: 14px;
@@ -60,13 +60,13 @@ make the navigation links into a menu button */
   }
 }
 
-/* Pixel 5 */
+/* Pixel 4 | Pixel 5 */
 @media screen and (max-width:393.8px) {
   .topnav {
-    font-size: 14px;
+    font-size: 13px;
   }
   .topnav a {
-    padding: 13px 10.5px !important;
+    padding: 13px 13px !important;
   }
 }
 

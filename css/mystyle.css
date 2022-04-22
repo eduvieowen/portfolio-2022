@@ -1,3 +1,5 @@
+@import url('http://fonts.cdnfonts.com/css/m23-hydrant-special');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +9,7 @@
     /* transition: 0.2s ease-in-out; */
 
 }
+
 body {
     /* margin-left: 4px; */
     /* font-size: 3vw; */
@@ -30,7 +33,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url(https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433) no-repeat fixed; /*made background fixed*/
+    background: url(https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433) no-repeat fixed;
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -158,11 +161,11 @@ div.gallery img {
 }
 /* Animation */
 #C2 b {
-    animation: bookmarks 2s linear 0s infinite alternate backwards;
+    animation: bookmarks 2s ease-in-out 0s infinite alternate both;
 }
 @keyframes bookmarks {
     from{color: rgb(169, 0, 0);}
-    to{color: whitesmoke;}
+    to{color: rgb(0, 110, 169);}
 }
 /* Clearing floats after the columns */
 .row:after {

@@ -37,7 +37,7 @@
     text-decoration: none;
     font-size: 25px;
     /* font-family: 'Common Pixel', sans-serif; */
-    font-family: 'M23_HYDRANT SPECIAL', sans-serif;
+    font-family: 'M23_HYDRANT SPECIAL', sans-serif !important;
     /* font-family: 'jethose FULL', sans-serif; */
     /* font-family: 'jethose LOOSE', sans-serif; */
     /* font-family: 'jethose  PIXEL', sans-serif; */

@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     color: white;
+    -webkit-overflow-scrolling: touch;
     /* transition: 0.2s ease-in-out; */
 
 }
@@ -10,8 +11,11 @@ body {
     /* margin-left: 4px; */
     /* font-size: 3vw; */
     /* font-size: 2vh; */
+    font: -apple-system-body;
+    font-family: "Avenir Next", "GillSans-Light", sans-serif;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-rendering: optimizeLegibility !important;
+    -webkit-text-size-adjust: 100%;
     -webkit-font-smoothing: antialiased !important;
     overflow-x: hidden;
     background-color: black;

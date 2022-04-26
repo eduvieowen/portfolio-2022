@@ -24,7 +24,7 @@ make the navigation links into a menu button */
       display: none !important;
   }
   .welcome-message {
-    width: 60%;
+    width: 65%;
   }
 }
 
@@ -33,7 +33,7 @@ make the navigation links into a menu button */
 /* 480x??? */
 @media screen and (max-width: 480px) {
   .topnav {
-    font-size: 17px;
+    font-size: 17px !important;
   }
   .topnav a {
     padding: 14px 13.5px !important;
@@ -43,83 +43,91 @@ make the navigation links into a menu button */
 /* 13 Pro Max */
 @media screen and (max-width: 428px) {
   .topnav {
-    font-size: 16px;
-    width: 100vw;
+    font-size: 14.5px !important;
+    /* width: 100vw; */
   }
   .topnav a {
-    padding: 14px 10.5px !important;
+    padding: 13.2px !important;
   }
 }
 
 /* XR */
-@media screen and (max-width: 414.5px) {
+@media screen and (max-width: 414.999px) {
   .topnav {
-    font-size: 14px;
+    font-size: 14px !important;
     width: 100vw;
   }
   .topnav a {
-    padding: 14px 13px !important;
+    padding: 14px 12.8px !important;
   } 
 }
 
 /* S9+ | S20 Ultra */
 @media screen and (max-width: 412px) {
   .topnav {
-    font-size: 14px;
-    width: 100vw;
+    font-size: 14px !important;
+    /* width: 100vw; */
   }
   .topnav a {
     padding: 14px 12.8px !important;
   }
 }
 
-/* Pixel 4 | Pixel 5 */
-@media screen and (max-width: 393.8px) {
+/* Pixel 4 | 5 */
+@media screen and (max-width: 393.999px) {
   .topnav {
-    font-size: 13px;
+    font-size: 13px !important;
   }
   .topnav a {
-    padding: 13px 13px !important;
+    padding: 13px 12.5px !important;
   }
 }
 
-/* 12/13 Pro */
-@media screen and (max-width:390.5px) {
+/* 12 | 13 Pro */
+@media screen and (max-width:390.999px) {
   .topnav {
-    font-size: 13px;
+    font-size: 13px!important;
   }
   .topnav a {
-    padding: 14px 12.8px !important;
+    padding: 14px 12.5px !important;
   }
 }
 
-/* SE */
-@media screen and (max-width: 375.5px) {
+/* 375x??? */
+@media screen and (max-width: 375.999px) {
   .topnav {
-    font-size: 12.7px;
+    font-size: 13px !important;
   }
   .topnav a {
-    padding: 12px 11.8px !important;
+    padding: 13px 11px !important;
+  }
+  .t {
+    font-size: 9.5px !important;
   }
 }
 
 /* S8 */
 @media screen and (max-width: 360px) {
   .topnav {
-    font-size: 12px;
+    font-size: 12px !important;
   }
   .topnav a {
-    padding: 12px 11.8px !important;
+    padding: 12px 11.5px !important;
   }
 }
 
 /* SE 320x568 */
 @media screen and (max-width: 320px) {
   .topnav {
-    font-size: 10px;
+    font-size: 11px !important;
   }
   .topnav a {
-    padding: 12px 11.8px !important;
+    padding: 11.5px 9.5px !important;
+  }
+  .t {
+    font-size: 7.5px !important;
+
+    font-weight: bold;
   }
 }
 

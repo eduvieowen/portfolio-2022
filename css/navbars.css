@@ -1,9 +1,7 @@
 /* Main nav styling */
 #stickyNav {
-    /* background-color: rgba(184, 0, 0); */
     background-color: rgba(0, 110, 169, 0.436);
     width: 100%;
-    /* height: auto; */
     position: fixed;
     transition: 0.5s;
     border-bottom: 2px solid whitesmoke;
@@ -21,13 +19,10 @@
     float: left;
     height: 100%;
     margin-left: 10px;
-    /* padding: 0px 55px; */
     z-index: -1;
 } 
 #home a {
     text-decoration: none;
-    /* font-size: 10px;
-    font-family: 'Common Pixel', sans-serif !important; */
 }
 #home img {
     width: 25px;
@@ -38,25 +33,11 @@
     text-decoration: none;
     font-size: 25px;
     font-weight: bold;
-    /* font-family: 'Common Pixel', sans-serif !important; */
 
     font-family: 'Audiowide', cursive;
-    /* font-family: 'Bungee Inline', cursive; */
-    /* font-family: 'Bungee Shade', cursive; */
-    /* font-family: 'Monoton', cursive; */
-    /* font-family: 'VT323', monospace; */
 
-    /* font-family: 'M23_HYDRANT SPECIAL', sans-serif !important; */
-    /* font-family: 'jethose FULL', sans-serif; */
-    /* font-family: 'jethose LOOSE', sans-serif; */
-    /* font-family: 'jethose  PIXEL', sans-serif; */
-    /* font-family: 'Edit Undo BRK', sans-serif; */                                             
-    /* font-family: 'M20_SP-RANKER', sans-serif; */
     margin-top: 2px;
     padding: 0px 10px;
-    /* padding-bottom: 10px; */
-    /* background-color: rgb(0, 110, 169); */
-    /* border: 2px inset rgb(221, 0, 0); */
     border-radius: 10px;
                                                 
 }
@@ -73,6 +54,7 @@
     position: relative;
     float: right;
     overflow: hidden;
+    font-size: 1rem;
 }
 /* Styling the topnav links */
 .topnav a {    

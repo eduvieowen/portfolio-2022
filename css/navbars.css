@@ -1,6 +1,6 @@
 /* Main nav styling */
 #stickyNav {
-    background-color: rgba(0, 110, 169, 0.436);
+    background-color: rgba(0, 110, 169, 0.799);
     width: 100%;
     position: fixed;
     transition: 0.5s;
@@ -11,33 +11,39 @@
 /*Styling home section*/
 #home {
     display: flex;
-    justify-content: center;
     align-items: center;
     position: absolute;
-    /* background-color:rgb(0, 110, 169); */
-    width: auto;
     float: left;
+    
+    width: auto;
     height: 100%;
-    margin-left: 10px;
+    letter-spacing: 1.5px;
+    
+    border-left: 10px solid rgb(182, 0, 0);
+    padding-right: 10px;
+    padding-left: 10px;
+    /* margin-left: 30px; */
     z-index: -1;
 } 
 #home a {
     text-decoration: none;
 }
+#home a:visited {
+    color: white;
+}
 #home img {
     width: 25px;
 }
 #home p {
-    text-shadow: 3px 3px 1px rgb(5, 12, 33);    
-    text-shadow: 4px 4px 1px rgb(5, 12, 33);    
-    text-decoration: none;
+    /* text-shadow: 3px 3px 1px rgb(5, 12, 33);     */
+    text-shadow: 4px 4px 1px rgb(5, 12, 33);
+
     font-size: 25px;
     font-weight: bold;
-
     font-family: 'Audiowide', cursive;
 
     margin-top: 2px;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
     border-radius: 10px;
                                                 
 }

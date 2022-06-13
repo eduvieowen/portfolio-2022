@@ -2,19 +2,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     color: white;
+    box-sizing: border-box;
     -webkit-overflow-scrolling: touch;
     /* transition: 0.2s ease-in-out; */
-
 }
 
 body {
-    /* margin-left: 4px; */
-    /* font-size: 3vw; */
-    /* font-size: 2vh; */
-    font: -apple-system-body;
-    /* font-family: "Avenir Next", "GillSans-Light", sans-serif; */
     font-family: "Montserrat";
     text-rendering: optimizeLegibility !important;
     -webkit-text-size-adjust: 100%;
@@ -26,18 +20,19 @@ body {
     padding: 3vw;
 }
 
-/* Styling welcome banner & Contact Links */
+/* Styling welcome page & Contact Links */
 #header {
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
+
     background: url(https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433) no-repeat fixed;
     background-size: cover;
     background-position: center;
+
     height: 100vh;
     z-index: 0;
-    /* border: solid; */
 }
 .welcome-message {
     background-color: rgb(255, 255, 255);
@@ -46,7 +41,6 @@ body {
     padding: 10px;
     text-align: center;
     width: 45%;
-    /* height: 45vh; */
 }
 #firstP {
     color: black;
@@ -68,9 +62,7 @@ body {
 #contact-container {
     display: flex;
     flex-direction: row;
-    /* justify-content: center; */
     justify-content: space-around;
-    /* align-items: center; */
     margin: 20px;
 }
 
@@ -153,6 +145,7 @@ div.gallery img {
 /* Card effect for articles */
 .card {
     border: solid rgba(255, 255, 255, 0.1);
+    color: white;
     background-color: rgba(255, 255, 255, 0.07);
 }
 #C1, #C2, #C3, #C4 {
@@ -161,7 +154,7 @@ div.gallery img {
 }
 /* Animation */
 #C2 b {
-    animation: bookmarks 2s ease-in-out 0s infinite alternate both;
+    animation: bookmarks 3.5s ease-in-out 0s infinite alternate both;
 }
 @keyframes bookmarks {
     from{color: rgb(169, 0, 0);}
@@ -190,20 +183,7 @@ div.gallery img {
     /* border: 10px inset ; */
     border-radius: 20px;
 }
-/* iframe {
-    color: whitesmoke;
-    border: 3px solid whitesmoke;
-}
-.link-btns button {
-    display: flex;
-    justify-content: space-between;
-    margin: 2px;
-    padding: 2px;
-    color: black;
-    text-decoration: none;
 
-}
- */
 /* Follow Me */
 #C4 h3 {
     color: rgb(221, 0, 0);

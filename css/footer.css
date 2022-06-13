@@ -1,0 +1,69 @@
+/* Footer */
+.footer {
+    padding-top: 40px;
+    /* text-align: center; */
+    border: solid rgba(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.07);
+    /* color: black; */
+    /* height: min-content; */
+}
+.footer header {
+    text-align: center;
+}
+.five{
+    background-color:rgb(0, 110, 169);
+}
+.survey-form {
+    /* text-align: center; */
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgb(77, 77, 77); */
+    /* border: solid; */
+}
+.survey-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    /* border: solid red; */
+}
+label {
+    color: whitesmoke;
+    font-family: 'Mulish';
+    font-size: 16px;
+}
+input, textarea {
+    color: black;
+    /* border: 5px ridge rgb(0, 110, 169); */
+    border-radius: 8px;
+    width: 100%;
+    margin: 5px 0px;
+    padding: 8px;
+}
+#subBtn{
+    color: whitesmoke;
+    border: 3px ridge rgb(255, 255, 255);
+    background-color: rgb(0, 110, 169);
+    font-family: 'Mulish';
+    font-size: 12px;
+}
+#subBtn:hover {
+    background-color: rgb(158, 213, 246);
+    color: black;
+    font-weight: bold;
+}
+
+/* Copyright */
+.copyright {
+    text-align: center;
+    border-top: 1px solid whitesmoke;
+    padding: 5px;
+    margin-top: 80px;
+    background-color: rgb(77, 77, 77);
+    color: white;
+    font-family: 'Mulish';
+    font-size: 14px;    
+    /* font-weight: bold; */
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+    /* transition: 0.2s ease-in-out; */
+}
+
+/* General Styling */
+body {
+    font-family: "Montserrat";
+    text-rendering: optimizeLegibility !important;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: antialiased !important;
+    overflow-x: hidden;
+    background-color: black;
+}
+#mainPage {
+    padding: 3vw;
+}
+
+/* Styling titles/bookmarks */
+.chp {
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: rgb(169, 0, 0);
+    border: 5px outset;
+}
+
+/*Styling text */
+b {
+    color: rgb(226, 0, 0);
+}
+article {
+    line-height: 1.5;
+    text-align: justify;
+}
+
+/* Creating two unequal columns that floats next to each other:
+    check left-column.css & right-column.css */
+
+/* Fake image Containers*/
+.fakeimg {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+/* Styling gallery pictures */
+.content-pics {
+    /* border: solid; */
+    display: flex;
+    margin: 30px 0;
+}
+div.gallery img {
+    width: 100%;
+    height: auto;
+    border: solid;
+    border-radius: 20px;
+}
+.responsive {
+    /* border: solid rebeccapurple; */
+    float: left;
+    justify-content: space-evenly;
+    padding: 6px;
+    margin-bottom: 6px;
+    width: 24.99%;
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+/* Card effect for sections */
+.card {
+    border: solid rgba(255, 255, 255, 0.1);
+    color: white;
+    background-color: rgba(255, 255, 255, 0.07);
+}
+#C1, #C2, #C3, #C4 {
+    margin-bottom: 50px;
+    padding: 80px 50px;
+}
+
+/* Animation */
+#C2 b {
+    animation: bookmarks 3.5s ease-in-out 0s infinite alternate both;
+}
+@keyframes bookmarks {
+    from{color: rgb(169, 0, 0);}
+    to{color: rgb(0, 110, 169);}
+}
+/* Clearing floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}

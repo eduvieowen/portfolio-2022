@@ -1,0 +1,53 @@
+/* Styling welcome page & Contact Links */
+#header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: url(https://cdna.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433) no-repeat fixed;
+    background-size: cover;
+    background-position: center;
+
+    height: 100vh;
+    z-index: 0;
+}
+.welcome-message {
+    background-color: rgb(255, 255, 255);
+    border: 8px inset rgb(221, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 45%;
+}
+#firstP {
+    color: black;
+    font-size: 1.3rem;
+}
+#secondP {
+    color: black;
+    font-size: 1rem;
+}
+
+.welcome-message button {
+    margin: 30px;
+    padding: 2px;
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+#contact-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.contact-links a img{
+    /* width: 34px; */
+    width: 2rem;
+}
+.contact-links a img:hover{
+    opacity: 80%;
+}

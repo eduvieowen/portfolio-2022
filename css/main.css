@@ -31,8 +31,11 @@ body {
 }
 
 /*Styling text */
-b {
+.red-bold {
     color: rgb(226, 0, 0);
+}
+.blue-bold {
+    color: rgb(0, 166, 255);
 }
 article {
     line-height: 1.5;

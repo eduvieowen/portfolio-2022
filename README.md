@@ -1,4 +1,4 @@
-# Eduvie's Portfolio Website (2022)!
+# Eduvie's Portfolio Website (2022)
 A portfolio website used to showcase my collection of skills, experiences, records, accomplishments, and attributes.
 
 ### Live Link https://eduvie2022.netlify.app/

@@ -1,5 +1,6 @@
-# Eduvie's Portfolio Website!
+# Eduvie's Portfolio Website (2022)!
 A portfolio website used to showcase my collection of skills, experiences, records, accomplishments, and attributes.
 
-### Live Link https://eduvieowen.vercel.app/
-<img width="1470" alt="Screenshot 2024-01-28 at 13 33 33" src="https://github.com/eduvieowen/personal-website/assets/103185065/b8ea279e-eb4a-4a72-b23e-0e3167e3d790">
+### Live Link https://eduvie2022.vercel.app/
+![image](https://github.com/eduvieowen/personal-website/assets/103185065/3a9766e1-4e2e-4326-be62-d67fe6631f47)
+

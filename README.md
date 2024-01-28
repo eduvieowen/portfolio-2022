@@ -1,5 +1,5 @@
 # Eduvie's Portfolio Website!
-A portfolio website used to showcase my collection of records, accomplishments, skills, experiences, and attributes.
+A portfolio website used to showcase my collection of skills, experiences, records, accomplishments, and attributes.
 
-### Live Link https://eduvieowen.netlify.app/
-![website](https://user-images.githubusercontent.com/103185065/163112194-38555b2a-8995-4ca3-9034-b08f44fc08cf.png)
+### Live Link https://eduvieowen.vercel.app/
+<img width="1470" alt="Screenshot 2024-01-28 at 13 33 33" src="https://github.com/eduvieowen/personal-website/assets/103185065/b8ea279e-eb4a-4a72-b23e-0e3167e3d790">
